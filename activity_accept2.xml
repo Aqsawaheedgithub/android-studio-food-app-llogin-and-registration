@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".AcceptActivity2">
+
+
+    <TextView
+        android:id="@+id/tvSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignTop="@+id/tvTime"
+        android:layout_alignBottom="@+id/tvTime"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/tvTime"
+        android:text="@string/date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#FAF7F7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="370dp"
+        android:layout_height="198dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-17dp"
+        android:background="#FBF3F3"
+        android:contentDescription="@string/fixed"
+        app:srcCompat="@drawable/triedd"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="302dp"
+        android:text="@string/select_time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#FCFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="5dp"
+        android:background="#54B0BC"
+        android:text="@string/reject_food_donation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#6D4C41"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10sp"
+        android:background="#54B0BC"
+        android:layerType="software"
+        android:layoutDirection="inherit"
+        android:lineSpacingExtra="12sp"
+        android:shadowColor="#654D4D"
+        android:text="@string/select_pickup_time_and_date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#6D4C41"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="239dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="-52dp"
+        android:background="#D65682"
+        android:text="Accept food donation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

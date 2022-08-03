@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/design_default_color_primary"
+    android:textAlignment="center"
+    tools:context="fooddetailbyusersActivity2"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="551dp"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/maps"
+        android:textColor="#E1BEE7"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="75dp"
+        android:layout_height="38dp"
+        android:layout_above="@+id/button9"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="-67dp"
+        android:text="@string/nexxtt"
+        android:textColor="#E1BEE7"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvSelectDate"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="-38dp"
+        android:text="@string/select_time"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/tvSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="-48dp"
+        android:text="@string/date"
+        android:textColor="#F6F6F6"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RelativeOverlap" />
+
+
+    <EditText
+        android:id="@+id/etSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvSelectDate"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="-50dp"
+        android:hint="@string/select_date"
+        android:importantForAutofill="no"
+        android:textColor="#FFFDFD"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectDate"
+        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,RelativeOverlap,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="19dp"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/submit_the_detail"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="133dp"
+        android:background="@color/design_default_color_primary"
+        android:duplicateParentState="true"
+        android:text="@string/donor_s_availability"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="281dp"
+        android:background="#54B0BC"
+        android:fadingEdge="horizontal"
+        android:text="@string/cooking_date_and_time"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/btn17"
+        android:layout_width="143dp"
+        android:layout_height="47dp"
+        android:layout_above="@+id/location"
+        android:layout_alignTop="@+id/location"
+        android:layout_marginStart="-143dp"
+        android:layout_marginTop="-134dp"
+        android:layout_marginBottom="87dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/location"
+        android:textColor="#ECE9E8"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="141dp"
+        android:layout_height="31dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="-34dp"
+        android:background="#D65682"
+
+        android:text="@string/food_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="11dp"
+        android:text="@string/food_types"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:autofillHints=""
+        android:background="#D65682"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:text="@string/user_address"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:text="User addres" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignEnd="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-54dp"
+        android:autofillHints=""
+        android:background="#D65682"
+
+        android:ems="10"
+        android:hint="@string/availabilitypp"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:shadowColor="#A37272"
+        android:text="@string/availability"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/foodtypes"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/spinner1"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="-53dp"
+        android:autofillHints=""
+        android:background="#54B0BC"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/foodstypes"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="RelativeOverlap" /><![CDATA[
+
+    "Food type"
+    />
+]]>
+</RelativeLayout>

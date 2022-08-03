@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:background="@color/design_default_color_primary"
+   tools:context=".NextActivity2">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="61dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="204dp"
+        android:background="#54B0BC"
+        android:rotationX="-25"
+        android:textColor="#FAFFFCFC"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="donate" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="182dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="240dp"
+        android:background="#54B0BC"
+        android:rotationX="-25"
+        android:text="@string/ngosnextt"
+        android:textColor="#6D4C41"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

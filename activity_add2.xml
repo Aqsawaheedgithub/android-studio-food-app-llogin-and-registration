@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".AddActivity2">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="297dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="414dp"
+        android:background="#D65682"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="@string/add_food_details"
+        android:textColor="#F4EEEE"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginBottom="74dp"
+        android:accessibilityLiveRegion="assertive"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/add"
+        android:cropToPadding="true"
+        android:fadingEdge="horizontal|vertical"
+        android:outlineProvider="bounds"
+        android:requiresFadingEdge="vertical"
+        android:rotation="0"
+        android:scaleType="centerInside"
+        android:textAlignment="center"
+        android:tintMode="screen"
+        android:visibility="visible"
+        app:srcCompat="@drawable/dddddd" />
+</RelativeLayout>

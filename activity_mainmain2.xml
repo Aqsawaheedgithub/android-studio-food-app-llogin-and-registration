@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/design_default_color_primary"
+    tools:context=".MainmainActivity2">
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="20dp"
+        android:background="#D65682"
+        android:text="@string/welcome_to_home_page"
+        android:textColor="#FFFDFD"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="86dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="2dp"
+        android:text="@string/next"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="227dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/text_welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="56dp"
+        android:background="#D65682"
+        android:text="@string/logoue"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="115dp"
+        android:contentDescription="@string/toto"
+        app:srcCompat="@drawable/welcome"
+        tools:ignore="ImageContrastCheck" />
+
+
+</RelativeLayout>

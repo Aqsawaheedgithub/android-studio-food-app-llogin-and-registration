@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".NgosUsersActivity2">
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn1"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_alignEnd="@+id/btn1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="63dp"
+        android:background="#D65682"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom|center"
+        android:shadowColor="#CDC7C7"
+        android:text="@string/ngos_volunteers"
+        android:textColor="#FFF7F7"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="279dp"
+        android:layout_height="261dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="365dp"
+        android:contentDescription="@string/string_imageview"
+        app:srcCompat="@drawable/ngos"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="206dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="10dp"
+        android:background="#D65682"
+        android:text="@string/user_resturants"
+        android:textAllCaps="true"
+        android:textColor="#FFFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>

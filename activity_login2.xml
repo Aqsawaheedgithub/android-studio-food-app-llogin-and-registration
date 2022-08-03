@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity2"
+    android:background="@color/design_default_color_primary"
+    android:layout_margin="10dp" >
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#54B0BC"
+        android:text="@string/klj"
+        android:textColor="#6D4C41"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_login"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="cvb"
+        android:background="#D65682"
+        android:hint="@string/bbbn"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#3E2723"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextFields,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_email"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="fgh"
+        android:background="#D65682"
+        android:hint="@string/sword"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#F6F6F6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextFields,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:layout_marginTop="201dp"
+        android:layout_marginBottom="20dp"
+        android:background="#54B0BC"
+        android:text="@string/lin"
+        android:textColor="#6D4C41"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="20dp"
+        android:background="#54B0BC"
+        android:text="@string/gister"
+        android:textAlignment="center"
+        android:textColor="#6D4C41"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
