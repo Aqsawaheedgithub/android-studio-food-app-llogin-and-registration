@@ -1,2 +1,5 @@
-# android-studio-food-app-llogin-and-registration
-firebase authentication
+FOOD DONATION APP"
+Tool: 
+Android Studio
+Database:
+Firebase
